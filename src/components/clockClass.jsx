@@ -1,15 +1,7 @@
-# Ejercicios sesiones 4, 5 y 6 - OpenBootCamp - React Básico
+// Partiendo del siguiente componente de clase que contempla varios métodos de ciclo de vida, convertidlo en un componente funcional que realice exactamente lo mismo:
 
-## Captura de pantalla
-
-### Enunciado del ejercicio:
-
-Partiendo del siguiente componente de clase que contempla varios métodos de ciclo de vida, convertidlo en un componente funcional que realice exactamente lo mismo:
-
-
-```
 import React, { Component } from 'react'
-import ‘../../styles/clock.scss’;
+// import '../../styles/clock.scss’;
 
 class Clock extends Component {
    constructor(props) {
@@ -19,8 +11,8 @@ class Clock extends Component {
          // Se genera una fecha como estado inicial del componente
          fecha: new Date(),
          edad: 0,
-         nombre: ‘Martín’,
-         apellidos: ‘San José’
+         nombre: 'Martín',
+         apellidos: 'San José'
       };
    }
    componentDidMount(){
@@ -55,4 +47,3 @@ class Clock extends Component {
    }
 }
 export default Clock;
-```
