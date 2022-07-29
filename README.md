@@ -2,6 +2,8 @@
 
 ## Captura de pantalla
 
+![ima](https://github.com/hroddev/react-basic-ejercicio4-5-6/blob/master/src/img/screenrec_test_react.gif)
+
 ### Enunciado del ejercicio:
 
 Partiendo del siguiente componente de clase que contempla varios métodos de ciclo de vida, convertidlo en un componente funcional que realice exactamente lo mismo:
